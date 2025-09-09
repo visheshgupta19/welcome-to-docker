@@ -52,7 +52,36 @@ docker stop welcome-to-docker
 
 ---
 
-⚡ Tip: If you change your app’s code, you’ll need to rebuild the image:  
+## Deleting containers and images
+To completely remove the container and image:
 ```bash
-docker build -t welcome-to-docker .
+docker stop welcome-to-docker
+
+docker rm welcome-to-docker
+
+docker rmi welcome-to-docker
 ```
+By doing the above we will:
+- Ensure the container is stopped if running
+- Remove the container
+- Remove the image
+
+## Checking running containers
+To see which containers are currently running, use:
+
+```bash
+docker ps
+```
+
+![Docker Desktop Images Tab 1](screenshots/cmd_line.png)
+
+![Docker Desktop Images Tab 2](screenshots/docker_1.png)
+
+![Docker Desktop Images Tab 3](screenshots/docker_2.png)
+
+![Docker Desktop Images Tab 4](screenshots/output.png)
+
+![Docker Desktop Images Tab 5](screenshots/remove.png)
+
+![Docker Desktop Images Tab 6](screenshots/removed_2.png)
+
