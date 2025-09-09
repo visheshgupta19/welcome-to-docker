@@ -36,14 +36,14 @@ Breaking it down:
 - The last `welcome-to-docker` → tells Docker which **image** to run (the one you built in step 1).  
 
 📸 *Docker Desktop showing the container running in the Containers tab*  
-![Docker Desktop Containers Tab](screenshots/docker-desktop-containers.png)
+![Docker Desktop Containers Tab](screenshots/docker-desktop-images.png)
 
 ---
 
 ### 3. Open the app
 Once the container is running, open your browser and visit:
 
-👉 [http://localhost:8088](screenshots/docker-desktop-images.png)
+👉 [http://localhost:8088](screenshots/docker-desktop-containers.png)
 
 You should see your application running.
 
