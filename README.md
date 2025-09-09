@@ -73,15 +73,22 @@ To see which containers are currently running, use:
 docker ps
 ```
 
+### 1. Running the `docker build` command
 ![Docker Desktop Images Tab 1](screenshots/cmd_line.png)
 
+### 2. Image successfully built and appearing in Docker Desktop Images tab
 ![Docker Desktop Images Tab 2](screenshots/docker_1.png)
 
+### 3. Image details in Docker Desktop showing tag and size
 ![Docker Desktop Images Tab 3](screenshots/docker_2.png)
 
+### 4. local browser 
 ![Docker Desktop Images Tab 4](screenshots/output.png)
 
+### 5. Stopping and removing the container
 ![Docker Desktop Images Tab 5](screenshots/remove.png)
 
+### 6. Image successfully removed from Docker Desktop
 ![Docker Desktop Images Tab 6](screenshots/removed_2.png)
+
 
