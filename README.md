@@ -16,7 +16,7 @@ docker build -t welcome-to-docker .
   - The name can be **anything** you want (e.g., `myapp:v1`).  
 - Once the build is complete, you will see the image listed in **Docker Desktop → Images tab**.  
 
-📸 *Docker Desktop showing the image in the Images tab*  
+
 ![Docker Desktop Images Tab](docs/screenshots/docker-desktop-images.png)
 
 ---
@@ -35,7 +35,6 @@ Breaking it down:
 - `--name welcome-to-docker` → gives your container a readable name (instead of a random ID).  
 - The last `welcome-to-docker` → tells Docker which **image** to run (the one you built in step 1).  
 
-📸 *Docker Desktop showing the container running in the Containers tab*  
 ![Docker Desktop Containers Tab](screenshots/docker-desktop-images.png)
 
 ---
