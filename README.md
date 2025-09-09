@@ -16,9 +16,6 @@ docker build -t welcome-to-docker .
   - The name can be **anything** you want (e.g., `myapp:v1`).  
 - Once the build is complete, you will see the image listed in **Docker Desktop → Images tab**.  
 
-
-![Docker Desktop Images Tab](docs/screenshots/docker-desktop-images.png)
-
 ---
 
 ### 2. Run the Docker container
@@ -35,14 +32,12 @@ Breaking it down:
 - `--name welcome-to-docker` → gives your container a readable name (instead of a random ID).  
 - The last `welcome-to-docker` → tells Docker which **image** to run (the one you built in step 1).  
 
-![Docker Desktop Containers Tab](screenshots/docker-desktop-images.png)
-
 ---
 
 ### 3. Open the app
 Once the container is running, open your browser and visit:
 
-👉 [http://localhost:8088](screenshots/docker-desktop-containers.png)
+👉 [http://localhost:8088](http://localhost:8088)
 
 You should see your application running.
 
@@ -53,4 +48,11 @@ When finished, stop the container either from Docker Desktop or with:
 
 ```bash
 docker stop welcome-to-docker
+```
+
+---
+
+⚡ Tip: If you change your app’s code, you’ll need to rebuild the image:  
+```bash
+docker build -t welcome-to-docker .
 ```
